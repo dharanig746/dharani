@@ -1,2 +1,2 @@
 FROM tomcat:9.0
-COPY /target/my-app-1.0-SNAPSHOT.jar /usr/local/tomcat/webapps/my-app-1.0-SNAPSHOT.jar
+COPY /target/ hello-1.0.war /usr/local/tomcat/webapps/hello-1.0.war
